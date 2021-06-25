@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    background-image: linear-gradient(rgba( 0, 0, 0, 0.4), rgba( 0, 0, 0, 0.1)), url(imagens/neflix-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+header{
+    width: 100%;
+    padding-top: 60px;
+}
+
+header h1{
+    color: rgb(245, 22, 22);
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header p{
+    color: white;
+    text-align: center;
+}
+
+main{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+main input[type=text]{
+    padding-left: 8px;
+    margin: 0 auto;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px 0 10px 0;
+    outline: none;
+}
+
+main input[type=submit]{
+    margin-top: 20px;
+    width: 135px;
+    height: 20px;
+    padding: 5px 25px 25px 25px;
+    background-color: orange;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+

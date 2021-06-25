@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class='bg-img'>
+
+        <header>
+            <h1>Netflix</h1>
+            <p>Escolha qual filme de ação deseja assistir...</p>
+        </header>
+
+    <div class='pergunta'>
+            <p>Qual filme abaixo quer assistir?</p> 
+            <input type="text" name="pergunta">
+
+            <div><input type="submit" value="Assistir" onclick='adicionarFilme()'></div>
+    </div><!--pergunta-->
+       
+        <main>   
+
+            <div class='filmes'></div>
+
+        </main>
+
+
+    </div><!--bg-img-->
+   
+    
+    <script src="script.js"></script>
+</body>
+</html>

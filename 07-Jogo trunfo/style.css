@@ -1,0 +1,261 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html,body{
+    min-height: 1150px;
+     background: linear-gradient(#60af46, #469E29,#EB6B2B);
+     background-repeat: no-repeat;
+     background-size: 100%;
+     background-position: center;
+}
+
+html, body{
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    padding: 30px auto;
+}
+
+header h1{
+    text-align: center;
+    color: #0c3744;
+    font-size: 40px;
+    margin: 10px;
+    font-family: 'Train One', cursive;
+}
+
+header p{
+    text-align: center;
+    color: blue;
+    font-size: 24px;
+    margin: 20px;
+}
+
+main{
+    width: 100%;
+    text-align: center;
+}
+
+main header p{
+    margin: 20px;
+    color: blue;
+    font-size: 20px;
+}
+
+main input[type=button]{
+    width: 180px;
+    font-size: 23px;
+    color: white;
+    background-color: rgb(255, 145, 0);
+    border: 0;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    height: 35px;
+}
+
+main input[name=jogar]{
+    background-color: rgba(255, 145, 0, 0.432);
+}
+
+#opçoes{
+    font-size: 20px;
+    color: rgb(252, 252, 252);
+    position: relative;
+    bottom: 5px;
+    left: 5px;
+    top: 10px;
+    line-height: 15px;
+}
+
+#opçoes input{
+    text-align: left;
+    margin-left: -5px;
+    margin-top: 10px;
+    width: 20px;
+    cursor: pointer;
+}
+
+main h1 {
+    margin-top: 10px;
+}
+
+main h2 {
+    margin: 25px;
+}
+
+#carta-jogador, #carta-maquina {
+    width: 360px;
+    height: 500px;
+    overflow: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    background-size: 350px 300px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    background-position-y: 10px;
+    border-radius: 33px;
+    margin-bottom: 60px;
+}
+
+.interrogaçao{
+    font-size: 250px;
+    position: absolute;
+    left: 480px;
+    top: 230px;
+    z-index: 0;
+}
+
+#carta-jogador h3 {
+    text-align: center;
+}
+
+.carta-imagem {
+    border: 1px solid black;
+    height: 100px;
+    margin: 10px;
+    z-index: 2;
+}
+
+.carta-imagem img {
+    width: 100%;
+    height: 100%;
+}
+
+.carta-status {
+    height: 160px;
+    margin: 2rem;
+    color: white;
+    z-index: 2;
+}
+
+.carta-status input {
+    margin: 20px 10px;
+}
+
+button {
+    width: 10rem;
+    max-width: 10rem;
+    padding: .8rem 1.5rem;
+    margin: 2rem auto;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+h2 {
+    color: white;
+}
+
+#carta-jogador, #carta-maquina {
+    width: 360px;
+    height: 500px;
+    overflow: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    background-size: 340px 300px;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: 5px;
+    border-radius: 33px;
+}
+
+#carta-jogador h3 {
+    text-align: center;
+}
+
+.carta-imagem {
+    border: 1px solid black;
+    height: 100px;
+    margin: 10px;
+}
+
+.carta-imagem img {
+    width: 100%;
+    height: 100%;
+}
+
+.carta-status {
+    height: 160px;
+    margin: 2rem;
+    color: white;
+    z-index: 2;
+}
+
+
+.carta-status input {
+    margin: 20px 10px;
+}
+
+.carta-status p {
+    margin-bottom: 2rem;
+}
+
+#resultado {
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 30px;
+    font-size: 27px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: black;
+    display: none;
+}
+
+.--spacing {
+    margin-left: 2.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.carta-subtitle {
+    z-index: 2;
+    position: absolute;
+    top: 30px;
+    left: 38px;
+    color: black;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+
+#cartas {
+    width: 100%;
+    display: none;
+    justify-content: space-between;
+}
+
+#placar, #quantidade-cartas {
+    color: white;
+}
+
+#jogar{
+    text-align: center;
+    margin: 70px auto;
+}

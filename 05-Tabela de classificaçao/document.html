@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <table>
+
+        <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Vitorias</th>
+            <th>Empates</th>
+            <th>Derrotas</th>
+            <th>Pontos</th>
+            <th>Ações</th>
+        </tr>
+
+     </thead>
+     <tbody>
+        <tr>
+            <td><input type="text" name="nome" class="nome" placeholder="Seu Nome"></td>
+
+            <td><input type="number" name="vitorias" class="vitorias" placeholder='Vitorias'></td>
+
+            <td><input type="number" name="empates" class="empates" placeholder='Empates'></td>
+
+            <td><input type="number" name="derrotas" class="derrotas" placeholder='Derrotas'></td>
+
+            <td><h1></h1></td>
+
+            <td><input type="button" onclick='adicionarVitoria()' value="+Vitoria"></td>
+
+            <td><input type="button" onclick='adicionarEmpate()' value="+Empate"></td>
+
+            <td><input type="button" onclick='adicionarDerrota()' value="+Derrota"></td>
+
+            
+        </tr>
+
+        <tr>
+            <td>Lorenzo</td>
+            <td>7</td>
+            <td>4</td>
+            <td>1</td>
+            <td>2</td>
+            <td><input type="button" onclick='adicionarVitoria()' value="Vitoria"></td>
+            <td><input type="button" onclick='adicionarEmpate()' value="Empate"></td>
+            <td><input type="button" onclick='adicionarDerrota()' value="Derrota"></td>
+
+            <td><input type="button" onclick='enviarTudo()' value="Enviar Tudo"></td>
+        </tr>
+     </tbody>
+
+    </table>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

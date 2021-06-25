@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;    
+    font-family: 'Open Sans', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(imagens/neflix-bg.jpg);     
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+header{
+    padding-top: 30px;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: white;
+    text-align: center;
+}
+
+header h1{
+    margin: auto;
+    text-align: center;color: red;
+    font-size: 65px;
+    font-weight: bolder;
+    
+}
+
+header p{
+    margin-top: 10px;
+    font-size: 19px;
+    color: rgb(231, 227, 227);
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    padding: 70px 2%;
+    position: relative;
+}
+
+main .filmes{
+    text-align: center;
+}
+
+.pergunta{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.pergunta p{
+    font-size: 23px;
+}
+
+.pergunta input[type=text]{
+    margin-top: 20px;
+    padding-left: 8px;
+    text-align: left;
+    width: 250px;
+    height: 30px;
+}
+
+.pergunta input[type=submit]{
+    margin-top: 15px;
+    width: 155px;
+    height: 30px;
+    font-size: 17px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.774);
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(240, 165, 25);
+    outline: none;
+}
+
+.filmes img{
+    width: 400px; 
+    height: 500px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.filmes p{
+    color: white;
+    font-size: 30px;
+    font-weight: normal;
+    display: none;
+}
